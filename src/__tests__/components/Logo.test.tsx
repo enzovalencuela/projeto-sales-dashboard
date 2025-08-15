@@ -7,11 +7,11 @@ import { Theme } from '@/types'
 import { ThemeProvider } from 'styled-components'
 import { themesList } from '@/resources/themesList'
 
-describe('Logo Component', () => {
+describe('Logo', () => {
   const renderComponent = (theme: Theme, width?: number, height?: number) =>
     render(
       <ThemeProvider theme={theme}>
-        <Logo height={width ?? 32} width={height ?? 32} />
+        <Logo height={height ?? 32} width={width ?? 32} />
       </ThemeProvider>
     )
 
@@ -24,6 +24,7 @@ describe('Logo Component', () => {
           `url(/${theme.appLogo})`
         )
       })
+
       it('should apply the correct height and width', () => {
         const { container } = renderComponent(theme, 40, 40)
         expect(container.firstChild).toHaveStyleRule('height', pxToRem(40))
