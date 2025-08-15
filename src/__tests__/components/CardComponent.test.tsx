@@ -1,10 +1,10 @@
-import { render } from '@testing-library/react'
-import { ThemeProvider } from 'styled-components'
 import { CardComponent } from '@/components'
-import { themesList } from '@/resources/themesList'
+import { render } from '@testing-library/react'
 import { Theme } from '@/types'
+import { ThemeProvider } from 'styled-components'
+import { themesList } from '@/resources/themesList'
 
-describe('CardComponent', () => {
+describe('cardComponent', () => {
   const renderComponent = (theme: Theme, className?: string) =>
     render(
       <ThemeProvider theme={theme}>
@@ -19,17 +19,17 @@ describe('CardComponent', () => {
         expect(asFragment()).toMatchSnapshot()
       })
 
-      it('should match the snapshot with the alert class', () => {
+      it('should match the snapshot  with alert class', () => {
         const { asFragment } = renderComponent(theme, 'alert')
         expect(asFragment()).toMatchSnapshot()
       })
 
-      it('should match the snapshot with the success class', () => {
+      it('should match the snapshot  with success class', () => {
         const { asFragment } = renderComponent(theme, 'success')
         expect(asFragment()).toMatchSnapshot()
       })
 
-      it('should match the snapshot with the warning class', () => {
+      it('should match the snapshot  with warning class', () => {
         const { asFragment } = renderComponent(theme, 'warning')
         expect(asFragment()).toMatchSnapshot()
       })
