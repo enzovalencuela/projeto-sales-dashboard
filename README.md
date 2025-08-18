@@ -1,6 +1,6 @@
 -----
 
-# Dashboard Sales
+# Sales Dashboard
 
 -----
 
