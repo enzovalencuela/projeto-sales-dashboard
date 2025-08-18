@@ -47,14 +47,19 @@ A arquitetura do projeto foi pensada para ser modular e escalável.
 
 -----
 
-## 🎨 Layout
+## 🎨 Imagens
+
+<img width="1918" height="930" alt="Login" src="https://github.com/user-attachments/assets/fb966ffd-7f3f-4e8a-ac7a-3e270fba7177" />
+
+<img width="1918" height="927" alt="Home" src="https://github.com/user-attachments/assets/ff1ff824-9667-4c68-b320-4d69c7adf97b" />
+
 
 -----
 
 ## ⚙️ Como rodar o projeto
 
 1.  Clone o repositório:
-    `git clone [URL-DO-REPOSITORIO]`
+    `git clone https://github.com/enzovalencuela/projeto-sales-dashboard.git`
 
 2.  Instale as dependências:
     `npm install` ou `yarn install`
@@ -79,5 +84,3 @@ Para rodar os testes, utilize os seguintes comandos:
 ## 🔒 Automação e Hooks de Git
 
 Este projeto utiliza **Husky** para garantir que os testes e a formatação do código estejam corretos antes de cada commit.
-
------
