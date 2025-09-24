@@ -124,6 +124,12 @@ function Login() {
                     onClick: handleSubmit,
                     children: loading ? 'Aguarde...' : 'Login',
                   },
+                  {
+                    className: 'primary',
+                    disabled: loading,
+                    onClick: () => navigate('/cadastro'),
+                    children: loading ? 'Aguarde...' : 'cadastrar-se',
+                  },
                 ]}
                 message={handleMessage()}
               />

@@ -149,6 +149,12 @@ function Registration() {
                     onClick: email ? handleStep2 : handleStep1,
                     children: email ? 'Enviar' : 'Próximo',
                   },
+                  {
+                    className: 'primary',
+                    disabled: loading,
+                    onClick: () => navigate('/'),
+                    children: loading ? 'Aguarde...' : 'Login',
+                  },
                 ]}
               />
             </Container>
