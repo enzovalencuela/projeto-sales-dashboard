@@ -7,17 +7,17 @@ import { Theme } from '@/types'
 
 const mockListData = [
   {
-    avatar: '/dnc-avatar.jpg',
+    avatar: '/nexgen-avatar.png',
     name: 'Nome Sobrenome 1',
     subtitle: 'R$ 1.000,00',
   },
   {
-    avatar: '/dnc-avatar.jpg',
+    avatar: '/nexgen-avatar.png',
     name: 'Nome Sobrenome 2',
     subtitle: 'R$ 1.000,00',
   },
   {
-    avatar: '/dnc-avatar.jpg',
+    avatar: '/nexgen-avatar.png',
     name: 'Nome Sobrenome 3',
     subtitle: 'R$ 1.000,00',
   },

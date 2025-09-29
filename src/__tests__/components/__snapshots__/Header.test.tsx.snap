@@ -9,9 +9,9 @@ exports[`Header Component Dark Theme should match the snapshot 1`] = `
 }
 
 .c1 {
-  background-image: url(/dnc-logo-white.svg);
+  background-image: url(/nexgen-logo-white.png);
   background-size: cover;
-  height: 1.875rem;
+  height: 2.5rem;
   width: 4.5625rem;
 }
 
@@ -30,7 +30,7 @@ exports[`Header Component Dark Theme should match the snapshot 1`] = `
         >
           <figure
             class="c1"
-            height="30"
+            height="40"
             width="73"
           />
         </a>
@@ -43,7 +43,7 @@ exports[`Header Component Dark Theme should match the snapshot 1`] = `
             <img
               alt="DNC Avatar"
               class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
-              src="/dnc-avatar.jpg"
+              src="/nexgen-avatar.png"
             />
           </div>
         </a>
@@ -62,9 +62,9 @@ exports[`Header Component Light Theme should match the snapshot 1`] = `
 }
 
 .c1 {
-  background-image: url(/dnc-logo-black.svg);
+  background-image: url(/nexgen-logo-black.png);
   background-size: cover;
-  height: 1.875rem;
+  height: 2.5rem;
   width: 4.5625rem;
 }
 
@@ -83,7 +83,7 @@ exports[`Header Component Light Theme should match the snapshot 1`] = `
         >
           <figure
             class="c1"
-            height="30"
+            height="40"
             width="73"
           />
         </a>
@@ -96,7 +96,7 @@ exports[`Header Component Light Theme should match the snapshot 1`] = `
             <img
               alt="DNC Avatar"
               class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
-              src="/dnc-avatar.jpg"
+              src="/nexgen-avatar.png"
             />
           </div>
         </a>

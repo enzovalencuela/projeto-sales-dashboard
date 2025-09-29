@@ -21,6 +21,7 @@ import Grid from '@mui/material/Grid'
 
 // TYPES
 import { InputProps, LeadsData, LeadsPostData, MessageProps } from '@/types'
+import BackButton from '@/components/BackButton'
 
 function Leads() {
   // FORM
@@ -113,6 +114,7 @@ function Leads() {
     <>
       <Header />
       <Container className="mb-2" maxWidth="lg">
+        <BackButton />
         <Grid container spacing={4}>
           <Grid item xs={12} sm={7}>
             <CardComponent

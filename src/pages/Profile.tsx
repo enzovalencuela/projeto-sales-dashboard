@@ -27,6 +27,7 @@ import {
   ProfileData,
   ProfileEditableData,
 } from '@/types'
+import BackButton from '@/components/BackButton'
 
 function Profile() {
   const themeContext = useContext(AppThemeContext)
@@ -125,6 +126,7 @@ function Profile() {
     <>
       <Header />
       <Container className="mb-2" maxWidth="lg">
+        <BackButton />
         <Grid container spacing={4}>
           <Grid item xs={12} sm={6}>
             {!profileError && (

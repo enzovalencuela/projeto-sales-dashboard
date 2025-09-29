@@ -28,7 +28,7 @@ exports[`AvatarsList Component Dark Theme should match the snapshot 1`] = `
         <img
           alt="Nome Sobrenome 1"
           class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
-          src="/dnc-avatar.jpg"
+          src="/nexgen-avatar.png"
         />
       </div>
     </div>
@@ -59,7 +59,7 @@ exports[`AvatarsList Component Dark Theme should match the snapshot 1`] = `
         <img
           alt="Nome Sobrenome 2"
           class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
-          src="/dnc-avatar.jpg"
+          src="/nexgen-avatar.png"
         />
       </div>
     </div>
@@ -90,7 +90,7 @@ exports[`AvatarsList Component Dark Theme should match the snapshot 1`] = `
         <img
           alt="Nome Sobrenome 3"
           class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
-          src="/dnc-avatar.jpg"
+          src="/nexgen-avatar.png"
         />
       </div>
     </div>
@@ -140,7 +140,7 @@ exports[`AvatarsList Component Light Theme should match the snapshot 1`] = `
         <img
           alt="Nome Sobrenome 1"
           class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
-          src="/dnc-avatar.jpg"
+          src="/nexgen-avatar.png"
         />
       </div>
     </div>
@@ -171,7 +171,7 @@ exports[`AvatarsList Component Light Theme should match the snapshot 1`] = `
         <img
           alt="Nome Sobrenome 2"
           class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
-          src="/dnc-avatar.jpg"
+          src="/nexgen-avatar.png"
         />
       </div>
     </div>
@@ -202,7 +202,7 @@ exports[`AvatarsList Component Light Theme should match the snapshot 1`] = `
         <img
           alt="Nome Sobrenome 3"
           class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
-          src="/dnc-avatar.jpg"
+          src="/nexgen-avatar.png"
         />
       </div>
     </div>
